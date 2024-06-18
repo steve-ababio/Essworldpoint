@@ -12,7 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "image":"linear-gradient(to bottom, rgba(7, 7, 7, 0.5),rgba(9, 9, 9, 0.5)), url('/assets/images/bg.webp')",
+        "image":"linear-gradient(to bottom, rgba(7, 7, 7, 0.5),rgba(9, 9, 9, 0.5)), url('/assets/images/bg1.jpg')",
       },
     },
   },
