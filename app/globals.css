@@ -17,8 +17,14 @@
 }
 
 html,body{
+  min-height:100vh;
   height:100%;
   width:100%;
+}
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
 }
 body {
   background-color:white;
@@ -35,4 +41,12 @@ body {
 }
 .flex-row-center{
   @apply flex justify-center items-center
+}
+@media screen and (min-width:857px){
+  .grid-syn{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    align-items: start;
+  }
+  
 }
