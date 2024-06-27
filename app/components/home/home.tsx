@@ -13,7 +13,7 @@ export default function Home(){
                         xl:text-[3.8rem] max-w-[40rem] whitespace-pre-wrap text-balance
                         uppercase font-bold text-center">Transform Your Crew Management
                     </h2>
-                    <h3 className="text-[1.0rem] md:text-[1.3rem] text-center font-medium">Expert guidance for your business's CM needs</h3>
+                    <h3 className="text-[1.0rem] md:text-[1.3rem] text-center font-medium">Expert guidance for your business&apos;s CM needs</h3>
                 </div>
                <Link href="#secondaryabout"><CtaButton>Learn more</CtaButton></Link>
             </div>

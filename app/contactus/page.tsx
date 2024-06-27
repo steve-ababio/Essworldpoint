@@ -107,17 +107,16 @@ export default function ContactUs(){
                   {
                     workingdays.map(({day,starttime,endtime,closed})=>{
                       const d = new Date().getDay();
-
                       if(closed === "closed"){
                           if(days[d] === day){
-                            return <div className="font-bold text-slate-800 mb-3"><span>{day}  </span><span>{closed}</span></div>
+                            return <div key={day} className="font-bold text-slate-800 mb-3"><span>{day}  </span><span>{closed}</span></div>
                           }
-                        return <div className="text-slate-600 mb-3"><span>{day}  </span><span>{closed}</span></div>
+                        return <div key={day} className="text-slate-600 mb-3"><span>{day}  </span><span>{closed}</span></div>
                       }
                       if(days[d] === day){
-                        return <div className="font-bold text-slate-800 mb-3"><span>{day}  </span><span>{starttime} - {endtime}</span></div>
+                        return <div key={day} className="font-bold text-slate-800 mb-3"><span>{day}  </span><span>{starttime} - {endtime}</span></div>
                       }
-                      return <div className="text-slate-600 mb-3"><span>{day}  </span><span>{starttime} - {endtime}</span></div>
+                      return <div key={day} className="text-slate-600 mb-3"><span>{day}  </span><span>{starttime} - {endtime}</span></div>
                     })
                   }
                 </div>

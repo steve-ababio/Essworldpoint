@@ -31,7 +31,7 @@ export default function Gallery() {
               {
                  gallery.map(({url,alt,id},index)=>{
                     return(
-                        <div className={`h-full w-full absolute  ${(index === currentIndex) ? 'visible ':'invisible'}`}>
+                        <div key={id} className={`h-full w-full absolute  ${(index === currentIndex) ? 'visible ':'invisible'}`}>
                           <Image src={url} key={id} loading="lazy" className={`h-full rounded-[10px]  ${(index === currentIndex) ? 'visible opacity-100 ':'opacity-0 invisible'} object-cover max-w-full w-full duration-1000 ease-out`}  width={600} height={800} alt={alt}/>
                           {alt != "" && <div className='text-white pb-4 pt-8 px-6 bg-[linear-gradient(to_top,rgba(0,0,0,0.8),transparent)] absolute bottom-0 right-0 left-0'>{alt}</div>}
                         </div>

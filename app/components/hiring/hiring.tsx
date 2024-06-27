@@ -3,7 +3,7 @@ export default function Hiring(){
         <section className="text-center pt-20">
           <h2 className="text-[30px] font-bold text-slate-600 mb-6">WE ARE HIRING</h2>
           <h2 className="text-[20px] font-medium text-slate-700 mb-2">JOIN THE TEAM</h2>
-          <p className="text-[1rem] text-slate-600 mb-10">If you're interested in our open positions, start by applying here and attaching your resume</p>
+          <p className="text-[1rem] text-slate-600 mb-10">If you&apos;re interested in our open positions, start by applying here and attaching your resume</p>
           <form className="max-w-[50rem] w-full border border-slate-600/40 p-10 rounded-[10px] mx-auto">
             <h3 className="text-slate-600 text-[1.4rem] font-semibold uppercase mb-6">Apply Now</h3>
             <div className="flex-col flex items-start mb-6">
