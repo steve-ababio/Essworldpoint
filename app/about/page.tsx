@@ -17,7 +17,7 @@ export default function About(){
                     Marine Engineers, Welders, Artist of right comprehensive 
                     onboarding services that help your new hires feel welcome 
                     and prepared for their new roles. From paperwork to orientation, 
-                    we've got you covered.
+                    we&apos;ve got you covered.
                 </p>
                 <div className="py-12 grid justify-center grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-x-6 gap-y-10 pb-6">
                     {
